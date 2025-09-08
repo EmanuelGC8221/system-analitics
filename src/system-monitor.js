@@ -1,5 +1,7 @@
-const os = require('os');
+import os from "os";
 
+
+export function iniciarMonitor() {
 function mostrarInformacion() {
   console.clear();
 
@@ -18,3 +20,4 @@ function mostrarInformacion() {
 
 
 mostrarInformacion();
+}

@@ -1,4 +1,5 @@
-console.log("=== Inicio del sistema ===");
+export function registroSistema() {
+  console.log("=== Inicio del sistema ===");
 //mide tiempo de ejecución
 console.time("ProcesoPrincipal");
 //acá cuenta la cantidad de acceso
@@ -24,3 +25,5 @@ console.table(usuarios);
 console.timeEnd("ProcesoPrincipal");
 
 console.log("=== Fin del sistema ===");
+};
+
